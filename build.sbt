@@ -8,6 +8,7 @@ resolvers += Resolver.sonatypeRepo("releases")
 
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.8.0")
 
+
 libraryDependencies ++= Seq(
   "org.typelevel" %% "cats" % "0.6.0",
   "org.scalaz" %% "scalaz-core" % "7.2.2",
